@@ -1,0 +1,87 @@
+.realname-contain{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #F5F5F9;
+    height: calc(100vh);  
+}
+.realname-title{
+    font-size: .3rem;
+
+    color: #888888;
+    padding: 0.27rem 0.35rem
+}
+.realname-content{
+    padding: 0 0.15rem;
+    background-color: white;
+}
+.input-title,.address-title{
+    font-size: 0.32rem;
+    color: #888888;
+    font-weight: bold;
+    display: inline-block;
+    width: 1.5rem;
+}
+.yzmbtn{
+    font-size: 0.32rem;
+    color: #21825E;
+    float: right;
+}
+.realname-input,.realname-yzminput,.address-item{
+   display: flex;
+   align-items: center;
+   padding: 0.3rem 0 .3rem .2rem;
+   border-bottom: 1px solid #DDDDDD;
+}
+.realname-input input,.realname-yzminput input,.address-item select,.address-item input{
+    height:0.5rem;
+    font-size: 0.32rem;
+    padding-left: .3rem;
+    background-color: white;
+    outline:none
+}
+.realname-yzminput input{
+    width: 2.7rem;
+}
+.address-content,.address-edit{
+    padding: .2rem 0.2rem
+}
+.address-content .address{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: .32rem;
+    color: #333333;
+}
+.address-content .address.left{
+    width: 75%;
+}
+.address-content .address.right{
+    width: .5rem;
+    margin-left: .85rem;
+}
+.address-content .address.right img{
+    width: 100%;
+}
+.address-item select{
+    width: 4.9rem;
+    font-size: 0.3rem;
+    color: #757575;
+    border: none;
+    background-color: white;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.realname-btn button{
+    width: 90%;
+    margin: 0.5rem .3rem;
+    height: 0.9rem;
+    font-size: 0.32rem;
+    border: none;
+    background-color: #21825E;
+    border-radius: .13rem;
+    color: white;
+}

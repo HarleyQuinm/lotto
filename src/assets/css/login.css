@@ -1,0 +1,97 @@
+.login-contain{
+    background-color: #F5F5F9;
+    padding: 0 0.3rem ;
+    height: calc(100vh);
+}
+.login-icon{
+    padding: 1.5rem 0;
+}
+.login-icon .login-img{
+    width: 4.3rem;
+    margin: 0 auto
+}
+.input-contain{
+    border-bottom: 1px solid #DDDDDD;
+    padding:0 .2rem;
+}
+.input-contain .form-input{
+    font-size: 0.32rem;
+    border: none;
+    background-color:#F5F5F9;
+    padding: .2rem 0 .2rem .15rem;
+    width: 75%;
+    vertical-align: middle;
+}
+.input-contain .input-name{
+    font-size: 0.35rem;
+    font-weight: bold;
+    color: #333333;
+    vertical-align: middle;
+}
+.tool-contain{
+    font-size: 0.29rem;
+    color: #21825E;
+    text-align: right;
+    padding: 0.2rem 0
+}
+.login-btn{
+    width: 100%;
+    font-size: 0.32rem;
+    border: none;
+    background-color: #E2E2E3;
+    color: #A4A9B0;
+    border-radius: 0.08rem;
+    padding: 0.2rem
+}
+.login-btn.active{
+    background-color: #21825E;
+    color: white;
+}
+.register-contain{
+    font-size: 0.32rem;
+    text-align: center;
+    padding: 0.25rem;
+    color: #21825E ;
+    letter-spacing:.03rem;
+    font-weight: bold;
+}
+.forgetPwd-mask{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.forgetPwd-contain{
+    width: 5.5rem;
+    /* height: 3.5rem; */
+    background-color: #F5F5F9;
+    border-radius: 0.2rem;
+    
+}
+.forgetPwd-contain .forget-title{
+    font-size: 0.32rem;
+    text-align: center;
+    padding: 0.25rem;
+    font-weight: bold;
+}
+.forgetPwd-contain .forget-content{
+    font-size: 0.28rem;
+    padding:0 0.3rem;
+}
+.forgetPwd-contain .forget-content p{
+    margin: 0.07rem 0;
+}
+.forget-btn{
+    font-size: 0.32rem;
+    color: #21825E;
+    text-align: center;
+    margin-top: 0.3rem;
+    padding: 0.25rem;
+    border-top: 1px solid #dddddd;
+    font-weight: bold;
+}

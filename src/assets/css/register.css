@@ -1,0 +1,29 @@
+.register-main{
+   background-color: #F5F5F9;
+   padding: 0 .3rem;
+}
+.register-main .register-item .register-title{
+    font-size: 0.35rem;
+    color: #1D8B64;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing:.03rem;
+    padding-top: 0.5rem ;
+}
+.register-main .register-item .register-title.ent{
+    margin-bottom: 0.3rem
+}
+.register-item .item-title{
+    font-size: 0.32rem;
+    color: #333333;
+    margin-top: 0.4rem;
+}
+.register-item .item-content{
+    font-size: 0.29rem;
+    margin: 0;
+    padding:0.2rem 0 .5rem 0
+}
+.register-item .item-img{
+    width: 90%;
+    margin: 0 auto;
+}

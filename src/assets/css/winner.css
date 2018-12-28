@@ -1,0 +1,56 @@
+.winner-contain{
+    background-image: url('../../assets/images/winnerback.jpg');
+    padding: 3.3rem .7rem .4rem .7rem;
+    background-size: 100% auto;
+}
+.winner-content{
+     background-color: white;
+     border-radius: .07rem;
+     padding: .25rem .29rem;
+     box-shadow: 0 0 .2rem #7e7d7d inset;
+}
+.tomine,.maintitle{
+    position: absolute;
+}
+.tomine{
+    font-size: .31rem;
+    background: linear-gradient(to bottom, #FFF6CB, #FFCA26);
+    -webkit-background-clip: text;
+    color: transparent;
+    top: .42rem;
+    right: .55rem
+}
+.maintitle{
+    background: linear-gradient(to bottom, #FFF6CB, #FFCA26);
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: .36rem;
+    top: 2.04rem;
+    left: 2.7rem
+}
+.winner-title{
+    font-size: .35rem;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: .4rem;
+}
+.winner-item{
+    margin: 0.2rem 0 0.5rem 0;
+}
+.winner-item .item-title{
+    text-align: center;
+    font-size: 0.32rem;
+    font-weight: bold;
+    margin: 0.2rem 0;
+}
+.winner-item .item-detail{
+    font-size: .32rem;
+    text-align: center;
+    margin: .3rem 0 .5rem 0;
+}
+.winner-item .item-detail p{
+    margin:.08rem 0;
+}
+.winner-item .item-detail span{
+    margin: 0 .21rem
+}
